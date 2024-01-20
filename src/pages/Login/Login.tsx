@@ -1,5 +1,12 @@
-import React from 'react'
+import Footer from 'src/components/Footer'
+import RegisterHeader from 'src/components/RegisterHeader'
 
 export default function Login() {
-  return <div>Login</div>
+  return (
+    <div>
+      <RegisterHeader />
+      Login
+      <Footer />
+    </div>
+  )
 }
