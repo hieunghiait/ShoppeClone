@@ -2,7 +2,7 @@ import { useRoutes } from 'react-router-dom'
 import ProductList from './ProductList'
 import Login from './Login'
 import Register from './Register'
-import RegisterLayout from './Register'
+import RegisterLayout from 'src/layouts/RegisterLayout'
 
 export default function useRouteElements() {
   const routeElements = useRoutes([

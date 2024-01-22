@@ -1,3 +1,3 @@
-import RegisterLayout from './RegisterLayout'
+import Register from './Register'
 
-export default RegisterLayout
+export default Register
