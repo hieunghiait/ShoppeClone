@@ -5,7 +5,7 @@ export default function Login() {
   return (
     <div>
       <RegisterHeader />
-      Login
+      Dang Ky
       <Footer />
     </div>
   )
