@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+html {
   height: 100px;
   line-height: 1.2;
 }
-body{
+body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
