@@ -11,15 +11,15 @@ interface Props {
   autoComplete?: string
 }
 
-export default function Input({ 
-  type, 
-  errorMessage, 
-  placeholder, 
-  className, 
-  autoComplete, 
-  name, 
-  register, 
-  rules 
+export default function Input({
+  type,
+  errorMessage,
+  placeholder,
+  className,
+  autoComplete,
+  name,
+  register,
+  rules
 }: Props) {
   return (
     <div className={className}>
