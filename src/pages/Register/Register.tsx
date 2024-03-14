@@ -25,7 +25,6 @@ export default function Register() {
     mutationFn: (body: Omit<FormData, 'confirm_password'>) => registerAccount(body)
   })
   const onSubmit = handleSubmit((data) => {
-    //loai bo truong confirm_password trong data truoc khi gui len server
     const body = omit(data, ['confirm_password'])
     registerAccountMutation.mutate(body, {
       onSuccess: (data) => {
@@ -57,9 +56,10 @@ export default function Register() {
         }
       }
     })
-    const value = watch()
-    console.log(value)
   })
+
+  // const value = watch()
+  // console.log(value)
 
   return (
     <div className='bg-orange'>
